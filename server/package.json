@@ -1,0 +1,27 @@
+{
+    "name": "server",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "koa": "nodemon ./app.js",
+        "pm2": "pm2 start ./app.js --watch --name fileapi",
+        "stop": "pm2 stop fileapi"
+    },
+    "dependencies": {
+        "@koa/cors": "^3.1.0",
+        "ali-oss": "^6.10.0",
+        "core-js": "^3.6.5",
+        "g": "^2.0.1",
+        "koa": "^2.13.0",
+        "koa-bodyparser": "^4.3.0",
+        "koa-multer": "^1.0.2",
+        "koa-router": "^9.1.0",
+        "mongoose": "^5.9.27",
+        "nodemon": "^2.0.4",
+        "pm2": "^4.4.0",
+        "require-directory": "^2.1.1"
+    },
+    "author": "scq",
+    "license": "ISC"
+}

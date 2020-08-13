@@ -1,0 +1,8 @@
+http://localhost:3001
+
+###
+
+POST http://localhost:3001/api/upload
+Content-Type: application/json
+
+{ "email": "someemail@gmail.com", "password": 1 }
